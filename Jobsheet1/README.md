@@ -13,10 +13,8 @@ They can also be compiled and run using the javac and java commands in any envir
 javac Identity.java
 java Identity
 
-## 1. Identity Program
-**File:** Identity.java 
-**Description:** Prints student identity information (name, class, NIM, department).
-### How to Run
+File: helloword.java
+Description: A simple program that prints "Hello Word!" to the console.
 
 ```bash
 javac helloword.java
