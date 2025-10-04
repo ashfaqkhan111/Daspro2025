@@ -4,7 +4,8 @@ This project contains two simple Java programs created using **Eclipse IDE**.
 They can also be compiled and run using the javac and java commands in any environment with JDK installed.
 
 ---
-
+##2.helloword
+Description: A simple program that prints "Hello Word!" to the console.
 ## 1. Identity Program
 **File:** Identity.java 
 **Description:** Prints student identity information (name, class, NIM, department).
@@ -13,7 +14,7 @@ They can also be compiled and run using the javac and java commands in any envir
 javac Identity.java
 java Identity
 
-## 2.helloword
+2.helloword
 Description: A simple program that prints "Hello Word!" to the console.
 
 ```bash
