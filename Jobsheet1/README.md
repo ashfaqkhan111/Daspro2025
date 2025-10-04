@@ -14,6 +14,5 @@ Description: A simple program that prints "Hello Word!" to the console.
 javac Identity.java
 java Identity
 
-```bash
 javac helloword.java
 java helloword
