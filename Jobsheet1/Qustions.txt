@@ -1,0 +1,13 @@
+Questions 
+Q1. What is the use of javac command in the above steps? 
+Answer 1. 
+Javac is the java compiler command  
+it takes your (.java) source code file and compile to byte code stored in a .class file 
+Q2. What is the use of java command in the above experiment? 
+Answer 2.  
+java command is a java application launcher. 
+it runs the compiled (.class) file using JVM java virtual machine. 
+Q3. What is the use of main method in java programming, what is the format of main method? 
+Answer 3. 
+the main method is am entry point for any standalone java program. 
+when you run a program java start execution using JVM. 
