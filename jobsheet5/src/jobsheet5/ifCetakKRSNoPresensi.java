@@ -25,6 +25,12 @@ public class ifCetakKRSNoPresensi {
 		else {
 			System.out.print("Pay UKT first");
 		}
+	
+		String message = UKTlunas ? "KRS can be printed " : "Pay UKT first ";
+		System.out.println(message);
+	
+		input.close();
 	}
+	
 
 }
