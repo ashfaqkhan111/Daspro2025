@@ -105,15 +105,7 @@ Enter guidance log with Supervisor 2: 4
 All requirements met. Student may register for their thesis exam.
 ```
 
----
-
-## Commit Messages
-
- Experiment  File Name                          Commit Message      
-
- 2.1         ifCetakKRSNoPresensi.java          Test Modification 1 
- 2.2         switchCetakKRSNoPresensi.java      Attempt 2           
- 2.3         nestedUjianSkripsiNoPresensi.java  Attempt 3           
+         
 
 
 
