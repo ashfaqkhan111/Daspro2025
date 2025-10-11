@@ -1,0 +1,71 @@
+Experiment 2.1 – IF / IF–ELSE (Print KRS)
+===
+
+Question 1: Why doesn't the check in the IF structure involve conditions with relational operators?
+Answer: Because the variable (uktLunas) is a boolean type that already contains a true or false value.
+We do not need to compare it using relational operators.
+The expression "if (uktLunas)" already means "if uktLunas == true".
+
+Question 2: When the program is run, then you enter the value false, what is the result?
+Answer: When the input is false, the condition "if (uktLunas)" becomes false,
+so the statements inside the IF block are not executed.
+If there is no ELSE part, no message will appear.
+If there is an ELSE, it will show the rejection message.
+
+Question 3: The system needs to provide information that if the user enters a false value,
+the output will be "Registration rejected. Please pay UKT first." Modify the program by adding an ELSE!
+Answer:
+Example code:
+if (uktLunas) {
+System.out.println("KRS can be printed.");
+} else {
+System.out.println("Registration rejected. Please pay UKT first.");
+}
+
+===
+Experiment 2.2 – SWITCH–CASE (Print KRS)
+===
+
+Question 1: What is the function of syntax break?
+Answer: The "break" statement stops the program from continuing to the next case.
+Without break, the program will execute the next case(s) after the matched one (fall-through).
+
+Question 2: What is the role of syntax default on SWITCH–CASE selection structure?
+Answer: The "default" part runs when none of the case values match the input value.
+It serves as a fallback for unexpected or invalid inputs.
+
+===
+Experiment 2.3 – Nested IF (Thesis Examination Requirements)
+===
+
+Question 1: What happens if a student answers "No" to the compensationStatus question? Why is that?
+Answer: If the student answers "No", it means they are not free from compensation.
+Therefore, the program will immediately show the message
+"Failed: The student has not been cleared of compensation."
+This happens because administrative clearance is the first and most important requirement.
+
+Question 2: Explain the meaning of the following code snippet:
+if (supervisor1 >= 8 && supervisor2 >= 4) {
+Answer: This statement checks two conditions at once using the logical AND (&&) operator.
+It will be true only when both conditions are true:
+supervisor1 must be at least 8, and supervisor2 must be at least 4.
+If either one is lower, the whole condition becomes false.
+
+Question 3: What is the student eligibility process from start to finish? Explain it in detail for all conditions.
+Answer:
+
+1. The system asks if the student is free from compensation.
+
+   * If No (false), display "Failed: The student has not been cleared of compensation." and stop.
+   * If Yes (true), continue to guidance checks.
+2. The system checks the number of guidance sessions for both supervisors.
+
+   * If Supervisor 1 >= 8 and Supervisor 2 >= 4 → eligible to register.
+   * If Supervisor 1 < 8 and Supervisor 2 >= 4 → fail, Supervisor 1 insufficient.
+   * If Supervisor 1 >= 8 and Supervisor 2 < 4 → fail, Supervisor 2 insufficient.
+   * If both below requirements → fail, both insufficient.
+3. The program prints a message explaining whether the student is eligible or not,
+   along with the reason for failure if applicable.
+
+
+
