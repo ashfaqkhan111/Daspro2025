@@ -210,11 +210,7 @@ for (int i = 0; i < temps.length; i++) {
 }
 
 
-💡 What happens:
 
- The outer loop (`i`) runs 5 times → once for each city.
-Theinner loop (`j`) runs 7 times → once for each day.
- Inside the inner loop:
 
   The program asks the user to **enter a temperature** for each day.
   Each value is stored in the 2D array at position `temps[i][j]`.
@@ -265,6 +261,7 @@ City 2
 5. Program ends
 
 After printing all the data, the program finishes its execution.
+
 
 
 
