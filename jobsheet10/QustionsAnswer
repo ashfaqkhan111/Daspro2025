@@ -1,0 +1,68 @@
+2.1 Experiment 1: Declare, Initialize, and Display 2-Dimensional Array
+
+Q : Do array elements have to be filled in sequentially starting from the 0th index? Please
+explain!
+
+Answer : yes array by defaulf start form 0.explain
+
+Q: Why is there a null in the list of audience names?
+
+Answer: its null beacuse we did not assign any value to that row and column.
+
+Q: Explain the function of audience.length and audience[0].length!
+   Do audience[0].length, audience[1].length, audience[2].length, and
+   audience[3].length have the same value? Why?
+   
+Answer: audience.length will print the length of array audience
+
+         They all have the same value because you created a regular (rectangular)
+          2D array every row has the same number of columns.
+          
+Q: What is the max row index for the audience array?
+
+Answer: the MAX row index is 0,1,2,3 so its 4
+
+
+Q: What is the max column index for the audience array?
+
+Answer: the MAX column index is 0,1 so its 2
+
+
+
+Q: What is the function of String.join()?
+
+Answer: The function String.join() in Java is used to combine (join) multiple strings
+        into one single string, with a separator placed between each part.
+        
+        
+2.2 Experiment 2: Utilizing Scanners and Loops for Input and Output on 2
+       Dimensional Arrays 
+  
+  Q: Should the array elements from the scanner be filled in sequentially starting from the
+     0th index? Please explain!     
+       
+Answer: No its upto user how they will fill it. beacuse its input system.
+
+Q: odify the program code to provide the following menu options: - - - 
+Menu 1: Input audience data 
+Menu 2: Show audience list 
+Menu 3: Exit
+
+Answer: Added in program.
+
+2.3 Experiment 3: 2-Dimensional Array with Different Row Lengths 
+
+Q: What is the function of Arrays.toString()? 
+ANswer: if we print array directly it will give you and code type which is not readble 
+        if if we print it through Attays.toString()? it will comvert evrthing to string and then print.
+        
+ Q: What is the default value for elements in an array with the data type int?String
+ 
+ Answer: the deafult value for array in inteager form is 0.String
+ 
+ 
+2.4 Experiment 4: SIAKAD Case Study
+
+
+
+              
