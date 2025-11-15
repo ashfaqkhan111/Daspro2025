@@ -1,0 +1,159 @@
+qustions experiment 1
+
+Q: There are 3 main components in FOR loop. Based on experiment 1 above, identify and
+   explain these 3 components!
+
+
+Answwr: in FOR loop there are three main compunent 
+1. initialization : this part of loop run first and one time it set the initial value to the program.
+2. condition: this part run after the initialazition and run after every loop iteration until the condition become true.
+3. update : this part run after each loop iteration it will use like updating values as we give them in this case its i++ so it 
+will incrsee the value by one after each loop iteration
+
+
+Q: Explain how the following code works!
+
+
+Answer: this code works like this 
+                           for (){} this is initialazition of FOR loop
+                           in side for loop there is integer i = 1; this is intialization
+                           i<=50 yhis is condition it will check i after every loop iteration the its lessthen 50 or not .
+                           i++ is the increment value it will add the value to i increase by one 
+                           
+                           if(){} this is inilazition of IF statement inside the For loop 
+                           
+                           inside is i%multiple==0 is initial as i=1 and the condition i<=50 
+                           the the loop will increase the value of i by 1 and the if statement will take the modulus of that number
+                           in which if the i%multiple become zero it will take that number and save it in sum veriable then after if it find the 
+                           nextstatement true it 
+                           i will add the sum = the number stored to that statement where it become true  
+                           
+                           Example: if multiple = 5 then the condition will check 1%5 = 1 = false it will goo to 5%5 = 0 this statement become
+                            true it wills store the value in the sum veriable like sum = sum+i the int i = 1 become i = 10 beacuse of condition 1<=50 
+                            it will be sum=sum+i so in first loop sum value is sum = 0; now sum = 0 +5; it become sum = 5; after it find another muultiple of five 
+                            like 10 the value of sum will be sum=sum+i i=10; sum now is sum = 5 so sum = 5+10 sum = 15; 
+                            
+Counter ++ : 
+             it will count how many time the loop got the condition true 
+             
+        
+        
+ Q: Modify the existing code by adding a new variable to calculate the average of all the
+specified multiples!
+
+int avrage = sum/counter;
+			
+			System.out.printf("the avrage of all multiple of number %d in range i to 50 is\n ", avrage,multiple);     
+             
+             
+             
+             
+             
+             
+             
+2. qustions experiment 2
+
+
+Q: Do modification to make the program produce similar result but WITHOUT IF statement.
+Please insert a screenshot of your code to the report
+
+Answer : for (int i = 2; i<= NumInput; i+=2 ) {
+			
+				
+				System.out.printf(i+" ");
+
+
+this program work like it will check first for loop and then if stetment then continoue the looping like 
+
+for(int i =1; i<=NumInput; i++) this will start the loop and in every loop iteartion check if the value is 
+less or equal to the user input or not and will also increase the value of i by one 
+
+if stetement will check the value if its true or false like i % 2 ==0 where the state ment come true it will print that value ;as
+
+it last when i <= NumInput it will stop looping 
+
+
+
+... by changing the initial i =1 to i = 2  and i++ to i+=2 we can get this result 
+
+
+
+
+
+3.
+
+Do a modification on the program therefore your program utilize FOR statement
+rather than WHILE statement
+
+Answer: if(Inputnumber <= 0) {
+		System.out.print("Invalid number!!!");
+		
+	}
+	
+	else { 
+		
+		for( i = Inputnumber; i>0 ; i--) {
+			s+="*";
+			System.out.println(s);
+			
+			for(int j = 0; j < i; j++) {
+				
+				System.out.print("*");
+				
+			}
+	
+		}
+		System.out.println();
+		
+		}
+
+
+Q: Explain the meaning of s += “ *” and why is it possible?
+
+
+Answer: its mean that the s veriable will store the value of s by increasing 1 star and it is possible beacuse we already 
+have assigen and veriable of name s which is storing taht value
+
+
+
+4.
+
+Q: What is the use of the BREAK within the loop syntax?
+
+Answer:  the braek statement use for to braek the loop imedeatly where we want.
+
+			
+			
+Q: Modify the program so that if the number of leave days requested is greater than the
+remaining entitlement, the program does not stop, allowing the user to enter the
+number of days according to the entitlement.
+
+
+Answer: for that we will just re move the break; statement from this condition it will continue when we enter 't' 
+else {
+				
+				System.out.println("you dont have enough leave entitlement!");
+				break;
+			}			
+		
+		
+Q: When typing "t" as the confirmation input, what happens? Why?
+			
+Answer: when we type 't' as input in confirmation it will end the program beacuse we give a condition like that.
+
+else if(Confirmation.equals("t") || Confirmation.equals("T")) {
+			
+			System.out.print("Program END, GoodBye");
+			break;
+
+
+
+
+
+
+
+
+
+
+
+
