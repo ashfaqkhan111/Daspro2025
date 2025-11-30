@@ -3,7 +3,7 @@ package jobsheet2;
 public class DynamicAreaCalculator {
   
     public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		//Veriable
 	double Width = 50;
