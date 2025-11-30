@@ -15,7 +15,7 @@ The system uses a logical **OR** condition:
 >  If (studentID == "yes" OR registeredOnline == "yes") → **Allow Entry**  
 >  Else → **Deny Entry**
 
----
+--- 
 
 ## Pseudocode
 BEGIN
