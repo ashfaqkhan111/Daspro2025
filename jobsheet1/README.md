@@ -3,7 +3,7 @@
 This project contains two simple Java programs created using **Eclipse IDE**.  
 They can also be compiled and run using the javac and java commands in any environment with JDK installed.
 
----
+--
 ## 1.helloword program
 Description: A simple program that prints "Hello Word!" to the console.
 ## 2. Identity Program
