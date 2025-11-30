@@ -1,0 +1,58 @@
+1. Do parameterless functions always have to be void?
+
+Answer: NO A function without parameters can return ANY data type, for example:
+public static int getNumber() {
+    return 25;
+}
+
+2. Can the menu list be displayed WITHOUT using the Menu() function?
+
+Answer: Yes just write the menu directly inside main method 
+
+public static void main(string[]args){
+
+System.out.println("=====Coffee Shop=====");
+System.out.println("1. Balck Coffee - 15k");
+System.out.println("Latte - 20k");
+System.out.println("Cappucino - 30k");
+System.out.println("Teh Tarik - 12k");
+System.out.println("Please Choose your Drink");
+
+}
+
+3. Advantages of using Menu() instead of writing everything in main()
+
+Answer: Cleaner and organized code
+main() stays short and easy to read.
+
+Reusability
+You can call Menu() many times without rewriting code.
+
+Easier to update
+If the cafe menu changes, you edit one place only.
+
+Better for teamwork
+Functions divide tasks and responsibilities in large programs.
+
+Follows good programming structure
+Good habits → modular, readable, and maintainable code.
+
+
+4.Execution flow when Menu() is called from main()
+
+Answer: The program starts → Java loads the class Coffee25410702062.
+
+Java looks for main() and begins executing it.
+
+In main(), the line Menu(); is found.
+
+Java jumps to the Menu() function.
+
+All statements inside Menu() are executed:
+
+print the coffee menu.
+
+After finishing Menu(), execution returns back to main().
+
+Program ends
+
