@@ -45,4 +45,4 @@ public class StudentsGradesManagementsXX {
 		System.out.print("the grades u entered : "+Arrays.toString(StudentsGrades)+"\n");
 	}
 
-}
+} 
