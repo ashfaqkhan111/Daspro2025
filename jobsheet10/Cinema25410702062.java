@@ -6,7 +6,7 @@ import java.util.Arrays;
 public class Cinema25410702062 {
 
 	public Cinema25410702062 () {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public static void main(String[] args) {
