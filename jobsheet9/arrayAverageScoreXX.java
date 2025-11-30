@@ -97,7 +97,7 @@ public class arrayAverageScoreXX {
 		System.out.print("The avrage Score of Students who pass : "+totalPass/countpass);
 		
 		}
-		
+		 
 		
 		
 	}
