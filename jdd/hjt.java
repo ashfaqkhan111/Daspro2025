@@ -59,8 +59,8 @@ public class hjt {
 			
 			
 		}
-		
-		
+		System.out.println("\n code results for step 12");
+		System.out.println("\n code results for step 12");
 		System.out.println("\n code results for step 12");
 		
 		for(int i=0; i<audience.length; i++) {
