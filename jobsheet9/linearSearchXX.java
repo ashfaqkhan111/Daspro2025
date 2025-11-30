@@ -74,4 +74,4 @@ public class linearSearchXX {
 		System.out.print("The key is on position : " +result);
 	}
 
-}
+} 
