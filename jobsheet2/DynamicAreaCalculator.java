@@ -7,7 +7,7 @@ public class DynamicAreaCalculator {
 
 		//Veriable
 	double Width = 50;
-	double Length = 100;
+	double Length = 100; 
 	 
 	double SqureSide = 2;
 	
