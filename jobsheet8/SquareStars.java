@@ -22,7 +22,7 @@ public class SquareStars {
 				System.out.print("*");
 				
 			}
-			
+			 
 			System.out.println();
 		}
 		
