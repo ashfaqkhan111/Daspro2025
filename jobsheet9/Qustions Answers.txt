@@ -1,0 +1,81 @@
+Q: If the contents of each element of the array num are changed with numbers 5.0, 12867,
+7.5, 2000000. What happens? How can it be like that?
+
+Answer: if we assign these value to the array directly it will give an error beacuse we 
+        create that array as integer data type we have to change the data type to double then it will be fine.
+ 
+ 
+Q:  Modify the program code by initializing the array elements at the same time when
+declaring the array. 
+
+Answer:           int [] num = {5,12,7,20};
+                  
+                  for (int n : num){
+                   
+                  System.out.print(n + " "); 
+                  }     
+                  
+                  
+ Q: Change the statement in step 6 to be like this 
+ 
+ 
+     for (int i =0; i<=4; i++) {
+			
+			System.out.print(num[i]);
+			
+			What is the result? How can it be like that?
+			
+			
+Answer: its showing error because the length of array is 4 
+
+
+
+2
+
+Q: Change the statement in step 5 to be like this
+
+             for (int i =0; i<Final_Score.length; i++) {
+		
+		System.out.print("Enter the final score " +i+" : ");
+		Final_Score [i] = input.nextInt();
+		
+		un the program. Have there been any changes? How can it be like that?
+		
+		
+		
+Answer: no changes occur beacuse if we put i<10 0r i<Final_Score.length its meannig is same beacuse we initialize 
+        Array Final_Score as the length [10]
+        
+        
+        
+Q:What is meant by the condition i < finalScore.length?
+
+Answer: the meaning of this condition is repaet the loop until i reach the point which is less then the length of the finalscore array.
+
+
+3
+
+Q: Modify the program so that it displays all students, and mark which one passed, and
+which did not!
+
+Answer: System.out.println("\n"+"*******REsults******" +"\n");
+	
+	for (int i = 0; i<Final_Score.length; i++) {
+		
+		if (Final_Score[i] >= 70) {
+			System.out.println("the student " + (i+1)+ " is PASS!! with marks : " +Final_Score[i]+"\n");
+			
+			
+		}else {System.out.println("the Student " +(i+1)+ " is Fail!! with low marks : " + Final_Score[i]+"\n" );
+		}
+		 
+		 
+4
+
+
+Q: Explain the meaning of the break; statement on line 13 of the program code in
+Experiment 4.
+
+Answer: the break; statement will end or break th eprogram after the loop find the key.
+
+			             
