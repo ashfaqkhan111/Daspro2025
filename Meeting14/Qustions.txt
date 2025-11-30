@@ -1,3 +1,5 @@
+Experiment 2.1
+
 1. Do parameterless functions always have to be void?
 
 Answer: NO A function without parameters can return ANY data type, for example:
@@ -56,3 +58,45 @@ After finishing Menu(), execution returns back to main().
 
 Program ends  
 
+Experiment 2.2
+
+1. What is the use of parameters in functions?
+
+Answer: Parameters let a function receive values from the code that calls it. They make a function general and reusable by allowing different inputs to produce different outputs instead of hard-coding values inside the function.
+Benefits:
+
+Reusability (same function, different inputs)
+
+Readability (intent is clearer)
+
+Maintainability (change behavior by altering call, not function body)
+
+Separation of concerns (function focuses on behavior, caller provides data)
+
+
+2. Why does this experiment use parameters customerName and isMember in Menu()?
+
+Answer: customerName is used so the function can greet. 
+isMember is a flag that controls membership behavior (show discount message when true).
+
+3. Are parameters the same as variables? Explain.
+
+Answer: They are related but not identical:
+
+Parameter: a name declared in function definition/signature. Example: String customerName in Menu(String customerName, ...).
+Parameters are local variables inside the function that are automatically initialized with the values passed by the caller.
+
+Variable: a general term for any named storage local variables, parameters, fields.
+
+4.Explain how the parameter isMember works in Menu(). What changes in output when it is true vs false?
+
+Answer: If isMember == true: the if block runs and the member discount message is printed
+ (so the user sees the discount message before the menu).
+
+If isMember == false: the if block is skipped and the discount message is not printed;
+ the menu prints without the member message.
+
+ 5. What happens if you call Menu() without including parameters customerName and isMember?
+
+ Answer: if we call the Menu() with out including parameters Compiler will give us Error.
+         The method menu(String, boolean) in the type Coffee25410702062 is not applicable for the arguments ()
