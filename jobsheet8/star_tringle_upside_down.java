@@ -28,6 +28,6 @@ public class star_tringle_upside_down {
 			
 		}
 		
-	}
+	} 
 
 }
