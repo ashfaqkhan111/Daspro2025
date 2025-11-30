@@ -6,11 +6,11 @@ import java.util.Random;
 public class NestedLoopStudentID {
 
 	public NestedLoopStudentID() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 
 		Scanner input = new Scanner (System.in);
 		
