@@ -10,7 +10,7 @@ public class Cinema25410702062 {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
 		
 		
 		String [][] audience = new String [4][2]; 
