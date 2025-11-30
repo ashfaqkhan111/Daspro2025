@@ -54,5 +54,5 @@ print the coffee menu.
 
 After finishing Menu(), execution returns back to main().
 
-Program ends
+Program ends  
 
