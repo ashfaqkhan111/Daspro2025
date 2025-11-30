@@ -71,7 +71,7 @@ public class Cinema25410702062 {
 		}
 		
 		}
-		
+		 
 	}
 
 
