@@ -1,5 +1,5 @@
 Experiment 2.1 – IF / IF–ELSE (Print KRS)
-===
+
 
 Question 1: Why doesn't the check in the IF structure involve conditions with relational operators?
 Answer: Because the variable (uktLunas) is a boolean type that already contains a true or false value.
