@@ -5,11 +5,11 @@ import java.util.Arrays;
 public class Porseni_national_event {
 
 	public Porseni_national_event() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
          Scanner input = new Scanner (System.in);
 	
 	String [] Sports = {"Badminton", "Table Tennis", "Basketball", "Volleyball"};
