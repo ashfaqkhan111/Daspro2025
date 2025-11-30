@@ -47,7 +47,7 @@ public class square_numaric {
                 }
             }
             
-           
+            
             System.out.println();
         }
     }
