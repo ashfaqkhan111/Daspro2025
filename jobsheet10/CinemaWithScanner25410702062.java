@@ -78,7 +78,7 @@ public class CinemaWithScanner25410702062 {
 		
 	}
 	
-	}	
+	}	 
 }
 
 
