@@ -1,9 +1,9 @@
-# Jobsheet2 – Java Programs
+# Jobsheet2 ï¿½ Java Programs
 
 This project contains two Java programs created using **Eclipse IDE**.  
 They can also be compiled and run using the `javac` and `java` commands in any environment with JDK installed.
 
----
+---  
 
 ## 1. Dynamic Area Calculator Program
 **File:** `DynamicAreaCalculator.java`  
