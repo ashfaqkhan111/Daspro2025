@@ -13,7 +13,7 @@ The WiFi system follows these rules:
 ---
 
 ## Logic Table
-
+ 
  User Type  Credits  Output 
 
 Lecturer  WiFi access granted (lecturer) 
