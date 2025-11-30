@@ -1,7 +1,7 @@
 # Jobsheet 6 – Case Method 1  
  
 
----
+
 
 ## Objective
 To create a simple Java program that determines a student's semester graduation status based on two core subjects:  
