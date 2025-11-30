@@ -39,7 +39,7 @@ public class ArrayNumberXX {
         System.out.print(n + " "); 
         } 
         
-        
+         
         
 		
         //modified as qustion 3
