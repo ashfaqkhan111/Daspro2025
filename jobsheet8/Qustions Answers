@@ -5,7 +5,7 @@ Qustions
 1. If in for loop, the initialization i = 1 is changed to i = 0, what is the result? How can It
 be like that?
 
-Answer: If i = 1 is changed to i = 0, the loop will print one extra star — because counting starts from 0 instead of 
+Answer:  If i = 1 is changed to i = 0, the loop will print one extra star — because counting starts from 0 instead of 
 
 
 
