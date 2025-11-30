@@ -4,7 +4,7 @@ Q: There are 3 main components in FOR loop. Based on experiment 1 above, identif
    explain these 3 components!
 
 
-Answwr: in FOR loop there are three main compunent 
+Answer: in FOR loop there are three main compunent 
 1. initialization : this part of loop run first and one time it set the initial value to the program.
 2. condition: this part run after the initialazition and run after every loop iteration until the condition become true.
 3. update : this part run after each loop iteration it will use like updating values as we give them in this case its i++ so it 
@@ -108,7 +108,7 @@ Answer: if(Inputnumber <= 0) {
 		}
 
 
-Q: Explain the meaning of s += “ *” and why is it possible?
+Q: Explain the meaning of s += ï¿½ *ï¿½ and why is it possible?
 
 
 Answer: its mean that the s veriable will store the value of s by increasing 1 star and it is possible beacuse we already 
