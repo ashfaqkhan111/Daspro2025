@@ -11,7 +11,7 @@ Answer: its null beacuse we did not assign any value to that row and column.
 
 Q: Explain the function of audience.length and audience[0].length!
    Do audience[0].length, audience[1].length, audience[2].length, and
-   audience[3].length have the same value? Why?
+   audience[3].l ength have the same value? Why?
    
 Answer: audience.length will print the length of array audience
 
