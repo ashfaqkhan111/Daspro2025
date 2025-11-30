@@ -47,7 +47,7 @@ public class FoodandBeverage {
 			System.out.print(OrderName[i] + Price[i]);
 			
 		}
-		
+		 
 	}
 
 }
