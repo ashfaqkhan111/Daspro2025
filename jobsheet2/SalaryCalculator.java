@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class SalaryCalculator {
 
 	public SalaryCalculator() {
-		// TODO Auto-generated constructor stub
+		
 	}
 
 	public static void main(String[] args) {
