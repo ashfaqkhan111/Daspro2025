@@ -21,9 +21,6 @@ System.out.println("Diskon code you get 30% Discount");
     System.out.println("Invalid Discount Code");
 }}
 
-
-
-
 public static void menu(){
 System.out.println("=====Coffee Shop=====");   //menu display
 System.out.println("1. Balck Coffee "+PRICES[0]);
