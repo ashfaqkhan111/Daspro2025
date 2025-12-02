@@ -1,102 +1,141 @@
-Experiment 2.1
+experiment2.1
 
-1. Do parameterless functions always have to be void?
+1. Does function with no parameter always have void datatype?
+Answer: NO afunction with no parameter does not mean it always have tobe void.
 
-Answer: NO A function without parameters can return ANY data type, for example:
-public static int getNumber() {
-    return 25;
+2. Is it possible for sentence “Thank you for…..dst” to be displayed, without using
+sayThankyou() function? Modify the program so that it displays the sentence without
+using function!
+
+Answer: yest it is possible we have to just print it like 
+
+public class Main {
+
+    public static void main(String[] args) {
+        System.out.println("thank for being the best teacher");
+        System.out.println("you inspired me");
+    }
 }
 
-2. Can the menu list be displayed WITHOUT using the Menu() function?
 
-Answer: Yes just write the menu directly inside main method 
+3. What are the benefits of using functions in a program?
 
-public static void main(string[]args){
+Functions are very useful. They help you:
 
-System.out.println("=====Coffee Shop=====");
-System.out.println("1. Balck Coffee - 15k");
-System.out.println("Latte - 20k");
-System.out.println("Cappucino - 30k");
-System.out.println("Teh Tarik - 12k");
-System.out.println("Please Choose your Drink");
+ 1. Avoid repeating code
 
-}
+If you need to print something many times, write it once inside a function.
 
-3. Advantages of using Menu() instead of writing everything in main()
+2. Make the program easier to read
 
-Answer: Cleaner and organized code
-main() stays short and easy to read.
+Functions give structure. Code looks cleaner and more organized.
 
-Reusability
-You can call Menu() many times without rewriting code.
+3. Easier to fix errors
 
-Easier to update
-If the cafe menu changes, you edit one place only.
+If something goes wrong, you only fix it inside the function instead of fixing it everywhere.
 
-Better for teamwork
-Functions divide tasks and responsibilities in large programs.
+4. Reusable
 
-Follows good programming structure
-Good habits → modular, readable, and maintainable code.
+You can call the same function many times, even from other classes.
 
+ 5. Easier to maintain
 
-4.Execution flow when Menu() is called from main()
+Large programs become much easier to manage using functions.
 
-Answer: The program starts → Java loads the class Coffee25410702062.
+experiment2.2
 
-Java looks for main() and begins executing it.
+1. What is the use of a parameter in a function?
 
-In main(), the line Menu(); is found.
+Answer: A parameter is used to send data into a function.
 
-Java jumps to the Menu() function.
-
-All statements inside Menu() are executed:
-
-print the coffee menu.
-
-After finishing Menu(), execution returns back to main().
-
-Program ends  
-
-Experiment 2.2
-
-1. What is the use of parameters in functions?
-
-Answer: Parameters let a function receive values from the code that calls it. They make a function general and reusable by allowing different inputs to produce different outputs instead of hard-coding values inside the function.
-Benefits:
-
-Reusability (same function, different inputs)
-
-Readability (intent is clearer)
-
-Maintainability (change behavior by altering call, not function body)
-
-Separation of concerns (function focuses on behavior, caller provides data)
+It allows a function to receive values so the function can work with different data each time.
 
 
-2. Why does this experiment use parameters customerName and isMember in Menu()?
+2. Is a parameter similar to a variable? Please explain!
 
-Answer: customerName is used so the function can greet. 
-isMember is a flag that controls membership behavior (show discount message when true).
+Answer: Yes a parameter is a special type of variable.
 
-3. Are parameters the same as variables? Explain.
+Similarities:
 
-Answer: They are related but not identical:
+Both store data.
 
-Parameter: a name declared in function definition/signature. Example: String customerName in Menu(String customerName, ...).
-Parameters are local variables inside the function that are automatically initialized with the values passed by the caller.
+Both have a data type (int, String, double, etc.)
 
-Variable: a general term for any named storage local variables, parameters, fields.
+Both have names.
 
-4.Explain how the parameter isMember works in Menu(). What changes in output when it is true vs false?
+You can use them inside the block where they exist.
 
-Answer: If isMember == true: the if block runs and the member discount message is printed
- (so the user sees the discount message before the menu).
 
-If isMember == false: the if block is skipped and the discount message is not printed;
- the menu prints without the member message.
+3. In Java, is parameter only used for passing input data?
 
- 5. What happens if you call Menu() without including parameters customerName and isMember?
+What about output data?
 
- Answer: if we call the Menu() with out including parameters Compiler will give us Error.
-         The method menu(String, boolean) in the type Coffee25410702062 is not applicable for the arguments ()
+Answer: Yes — Parameters are ONLY for input
+
+Parameters in Java always pass data into a function.
+
+They cannot directly return output.
+
+experiment 2.3
+
+1. When do we need to create a function that requires a return value?
+
+Answer:
+A function needs a return value when:
+
+You want the function to produce a value
+
+Example:
+ calculate something
+ get user input and send it back
+ fetch data from somewhere
+ check a condition and return true/false
+
+ 
+2. Can we put System.out.println inside a function that has a return value?
+What is the impact?
+
+Answer: YES. You can put System.out.println() inside a function that returns something.
+
+Impact:
+
+The function will do two things:
+
+Print something on the screen
+
+Return a value
+it will not affect the return value.
+
+3. Can a function without a return value be called inside main without storing it into a variable?
+Answer: YES beacuse the void function do not store any thing so there is nothing to return.
+
+
+experiment 2.4 
+
+1. Based on experiment 4, which function will execute first? Please explain!
+
+Answer: in my program i call two function in main class sayThankyou(); and SayAddational();
+sot the function sayThankyou(); will run first.
+
+2. Which is the correct way to write a function inside a class? Above the main function
+or below the main function? Please explain!
+
+Answer: both are the corrct ways beacuse java does  depend on the physical position of function inside class.
+
+experiment 2.5
+
+1. Explain why the parameter in experiment 5 is written as int... a!
+
+Answer: its not a simple int a this type int...a this works as an array in function parameter.
+
+2.Mention the example of varargs in implementing code to solve real-world problems!
+(at least 3)
+
+Answer: 1.loging System 2.Grading System 3. billing System.
+
+
+3.Can we use two different data types for varargs in one function? Provide an
+example!
+
+Answer: in java you cannot have two varargs in one function parameter.
+
