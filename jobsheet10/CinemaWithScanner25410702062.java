@@ -67,7 +67,7 @@ public class CinemaWithScanner25410702062 {
 			
 		
 			
-			if(audience[i][j] == null) {
+			if(audience[i][j] != null || audience[i][j] == null) {
 				
 				System.out.println("Row : "+(i+1)+ " Column : "+(j+1)+ " --> "+ audience[i][j]);
 				continue;
@@ -76,9 +76,11 @@ public class CinemaWithScanner25410702062 {
 		System.out.println();
 		}
 		
+		
 	}
 	
-	}	 
+
+}	 
 }
 
 
