@@ -148,3 +148,105 @@ Answer: in java you cannot have two varargs in one function parameter.
 and return to main method to print it the then the inputs will pass through the function volume to calculate volume 
 and will return to main method to print it.
 
+
+
+2. What is the output of the program below, then explain the steps of the program!
+
+
+PROGRAM EXECUTION STEPS
+
+1. Program starts at main
+
+
+int temp = sum(1, 1);
+
+
+main calls the function sum(1, 1)
+num1 = 1, num2 = 1
+
+2. Inside sum(1, 1)
+
+int sum = num1 + num2;    // 1 + 1 = 2
+return sum;
+
+
+The function calculates 1 + 1 = 2
+Returns 2 to main
+
+3. Back to main
+
+
+int temp = sum(1, 1);  // temp = 2
+
+
+So now:
+
+temp = 2
+
+Next line:
+
+
+showSum(temp, 5);
+
+
+So it calls:
+
+showSum(2, 5)
+
+
+Important: showSum(2, 5) DOES NOT print 2 and 5
+
+Instead, it does this:
+
+4. Inside showSum(2, 5)
+
+
+showIndex(sum(num1, num2));
+
+
+This means:
+
+It calls sum(2, 5)
+
+5. Inside sum(2, 5)
+
+
+int sum = num1 + num2;    
+return sum;
+
+
+It calculates 2 + 5 = 7
+Returns 7
+
+Now showSum becomes:
+
+showIndex(7);
+
+6. Inside showIndex(7)
+
+
+for (int j = 1; j <= 7; j++) {
+    System.out.print(j);
+}
+
+ FINAL OUTPUT
+
+1234567
+
+3. When do we need to create a function with and without parameters? When do we 
+need to create a function with and without return value? Explain!
+
+Answer: 
+When creating functions, we use functions with parameters when the function needs external
+information to complete its task, such as calculating a sum or processing input values. 
+In contrast, we use functions without parameters when the task is fixed and does not require
+any outside data, like displaying a message or printing a menu. We choose a function with a 
+return value when we need the function to produce and send back a result that will be used elsewhere 
+in the program, for example returning the highest number or the total of two values. Meanwhile,
+a function without a return value (void) is used when the function only performs an action such as
+printing output, updating data, or showing a message—and does not need to return any result to the caller.
+
+
+
+
+
