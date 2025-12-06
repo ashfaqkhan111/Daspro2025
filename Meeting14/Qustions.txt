@@ -139,3 +139,12 @@ example!
 
 Answer: in java you cannot have two varargs in one function parameter.
 
+2.6  Experiment 6
+
+
+1. Explain the execution steps for experiment 6 above! 
+
+1st it will take the input then pass it will pass the input through function area to calculate area 
+and return to main method to print it the then the inputs will pass through the function volume to calculate volume 
+and will return to main method to print it.
+
