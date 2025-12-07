@@ -1,0 +1,175 @@
+2.1 Experiment 1
+
+1. After observing the experiment of recursive function above, what is the definition of
+recursive function?
+
+Answer: recursive function is a function which call it self to solve a function.
+
+2.How the recursive function works? 
+
+Answer: A recursive function is a function that calls itself to solve a problem.
+
+You break a big problem into smaller versions of the same problem.
+
+Each call handles a smaller piece.
+
+Eventually you reach a point where the problem is so small that you already know the answer — this is called the base case.
+
+Then the function returns back step-by-step.
+
+3. From the experiment above, do factorialRecursive() and factorialIterative() have the 
+similar result? Then, what are the differences between recursive and iterative if both 
+are having the same result? 
+
+Answer:
+Recursive
+
+The function calls itself.
+
+Uses the call stack (memory) to store each function call.
+
+Stops when the base case is reached
+
+Iterative
+
+Uses loops (for, while).
+
+Does not create new function calls.
+
+Uses variables, not stack frames.
+
+2. Memory Usage
+Recursive
+
+ Uses more memory because each function call is stored on the stack.
+
+Iterative
+
+Uses less memory because it only uses loop variables.
+
+3. Speed / Performance
+Recursive
+
+Often slower because of repeated function calls.
+
+Iterative
+
+Faster because loops don’t create extra function call overhead.
+
+4. Risk / Limitations
+Recursive
+
+ If recursion doesn't stop → Stack Overflow Error
+ Deep recursion (like 10,000 calls) can crash.
+
+Iterative
+
+ No stack overflow risk.
+ Safe for large inputs.
+
+ 5. Code Simplicity
+Recursive
+
+ Sometimes simpler and easier to understand
+(for tree, graph, divide & conquer).
+
+Iterative
+
+ Better for simple repeated tasks (loops).
+
+ 2.2 Experiment 2 
+
+ 1. In Experiment 2, there is a recursive function call calculatePower() in the main 
+function, then the function calculatePower() is called repeatedly. Explain how long 
+the function calling process will run!
+
+Answer: the function will run untill reach the last power.
+
+2. Add program code to print the power calculation series. Example: 
+calculatePower(2,5) will print 2x2x2x2x2x1 = 32! 
+
+Answer: code is in the github calculatePower.java
+
+
+2.3 Experiment 3 
+
+1. From the above experiment, which statements that is classified as “base case” and 
+“recursion call”! 
+
+this is base case    if (period ==0)
+                      return invesment
+
+and this is recursion 
+
+return 1.11*calculateProfit(invesment, period-1);
+
+
+2.Explain using simulation or trace the expansion phase and substitution phase of 
+calculateProfit(100000,3) function! 
+
+
+
+Using this recursive function:
+
+static double calculateProfit(int balance, int period){
+    if(period == 0)
+        return balance;
+    else
+        return 1.11 * calculateProfit(balance, period - 1);
+}
+
+
+
+
+1. Expansion Phase (Recursive Call Expansion)**
+
+In this phase, the function keeps calling itself until it reaches the base case (`period == 0`).
+
+
+calculateProfit(100000, 3)
+ → 1.11 * calculateProfit(100000, 2)
+     → 1.11 * calculateProfit(100000, 1)
+         → 1.11 * calculateProfit(100000, 0)
+             → base case reached, stop expanding
+
+
+At this point, all calls are created, but no calculation has been done yet.
+
+2. Substitution Phase (Returning Values Backwards)
+
+Now the function starts returning values from the deepest call (the base case).
+
+ Step 1: Base case
+
+calculateProfit(100000, 0) = 100000
+
+
+Step 2: Substitute back into the previous call
+
+calculateProfit(100000, 1)
+= 1.11 * calculateProfit(100000, 0)
+= 1.11 * 100000
+= 111000.0
+
+Step 3: Substitute again
+
+calculateProfit(100000, 2)
+= 1.11 * 111000.0
+= 123210.0
+
+ Step 4: Final substitution
+
+calculateProfit(100000, 3)
+= 1.11 * 123210.0
+= 136763.1
+
+
+
+
+Final Answer:
+
+calculateProfit(100000, 3) returns: 136763.1
+
+
+
+
